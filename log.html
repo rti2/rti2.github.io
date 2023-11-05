@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Log in</title>
+</head>
+<body>
+    
+ <h1>Log in</h1>
+   <!-- <img src="Pages/Images/HTML5_logo_and_wordmark.svg.png" alt="HTML oficcal logo" width="20%" > <br> <br><br> <br><br><br> 
+   -->
+   
+    <form action="login.php" method="get">
+        <p>dont worry these wont be saved</p>
+
+        <div>
+            <label for="textId">Name :</label>
+            <input type="text" id="textId" name="textName"  minlength="3" maxlength="10" required>
+        </div>
+   
+        <div>
+            <label for="passId">Password:</label>
+        <input type="password" id="passId" name="passName" minlength="4"  maxlength="8"  required>
+        </div> 
+             
+        <div>
+            <label for="disabledId"></label>
+            <input type="text" id="disabledtId" name="disabledName" value="disabled" disabled>
+             
+            <label for="readonlyId"> </label>
+            <input type="text" id="readonlyId" name="readonlyName" value="readonly" readonly> <br><br>
+
+            <label for="normalId"></label>
+            <input type="text" id="normalId" name="normalName" value="This is value">
+            <label for="placeholderId"></label>
+            <input type="text" id="placeholderId" name="placeholderName" placeholder="This is place holder">
+
+        </div>
+                <br>
+        <div>
+        
+            <input type="radio" id="fGenderId" name="Gender" value="fGender" required>
+            <label for="fGenderId">Female</label>
+            <input type="radio" id="mGenderId" name="Gender" value="mGender">
+            <label for="mGenderId">Male</label> 
+        </div> <br>
+        <div >
+            <input type="checkbox" id="englishId" name="englishName" value="englishLang">
+            <label for="englishId">English</label> <br>
+
+            <input type="checkbox"  id="persianId" name="persianName" value="persianLang">
+            <label for="persianId">Persian</label><br>
+
+            <input type="checkbox" name="turkishName" id="turkishId" value="turkishLang">
+            <label for="turkishId">Turkish</label><br>
+
+            <input type="checkbox" id="kurdId" name="kurdName" value="kurdLang">
+            <label for="kurdId">kurd</label><br>
+
+            <input type="checkbox" id= "arabId" name="arabName" value="arabLang">
+            <label for="arabId">Arab</label><br>
+
+            <input type="checkbox" id="russianId" name="russianName" value="russianLang">
+            <label for="russianId">Russian</label><br>
+            
+            <br>
+            
+        </div>
+        <div>
+            <label for="selectId">Age:</label>
+            <select name="selectName" id="selectId" required>
+                <option value="age">20></option>
+                <option value="age">20-30</option>
+                <option value="age" selected>30-40</option>
+                <option value="age">40-50</option>
+                <option value="age">50-60</option>
+                <option value="age">60></option>
+            </select>
+            <br><br>
+        </div>
+        <div>
+            <textarea name="textareaName" id="textareaId" cols="22" rows="7" placeholder="write anything you want"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="submit">
+            <input type="reset" value="clear" >
+        </div>
+        <a href="index.html"> <h3>Home page</h3> </a>
+<br><br><br>
+
+
+</body>
+</html>
+
+
+
+<!--
