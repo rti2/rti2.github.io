@@ -1,0 +1,55 @@
+bpdy {
+    background-color: #eee;
+}
+h1 {
+    direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: xx-large;
+    padding: 15px;
+    ;
+}
+a {
+    text-decoration: none;
+    color: #0000ff ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 50px;
+}
+
+a:hover {
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    color: #ff0000 ;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 2em;
+}
+
+ a:visited {
+    color: #000 !important;
+    text-decoration: line-through !important;
+} 
+
+.main-p-class {
+    border:2px #000 solid;
+    /* margin: auto; */
+    margin: 2% 10% 20% 10%;
+    font-family: 'iransans';
+    direction: rtl;
+    padding: 5% 5% ;
+    font-size: 1.5em;
+    text-align: justify;
+    word-spacing: 1rem;
+    line-height: 2em;
+}
+.source {
+    border: 4px red solid ;
+    background-color: rgb(197, 193, 193);
+    font-family: 'iransans';
+    direction: rtl;
+    padding: 5% 5% ;
+    font-size: 1.5em;
+    text-align: justify;
+    word-spacing: 1rem;
+    line-height: 2em;
+}
